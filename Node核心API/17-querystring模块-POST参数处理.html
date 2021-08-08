@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>17-querystring模块-POST参数处理</title>
+</head>
+<body>
+<form action="http://127.0.0.1:3000/index.html" method="post">
+    <input type="text" name="userName">
+    <input type="text" name="password">
+    <input type="submit" value="提交">
+</form>
+<!--
+1.如何拿到POST请求传递过来的参数
+使用querystring模块
+
+querystring.parse(str[, sep[, eq[, options]]])  将参数转换为对象
+querystring.stringify(obj[, sep[, eq[, options]]]) 将对象转换为参数
+-->
+</body>
+</html>

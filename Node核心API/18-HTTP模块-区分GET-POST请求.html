@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>18-HTTP模块-区分GET-POST请求</title>
+</head>
+<body>
+<form action="http://127.0.0.1:3000/index.html" method="get">
+    <input type="text" name="userName">
+    <input type="text" name="password">
+    <input type="submit" value="提交">
+</form>
+<!--
+1.在服务端如何区分用户发送的是GET请求和POST请求?
+通过HTTP模块http.IncomingMessage 类的.method属性
+-->
+</body>
+</html>
